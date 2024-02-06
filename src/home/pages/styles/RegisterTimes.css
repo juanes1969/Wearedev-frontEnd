@@ -1,0 +1,91 @@
+.calendarItem {
+    margin: 10px;
+    margin-top: 20px;
+}
+
+.btn-register-time {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    margin-top: 14px;
+    padding: 1em;
+}
+
+.btn-register-time button {
+    background-color: #1F2B51;
+    border: none;
+}
+
+.btn-register-time button:hover {
+    background-color: #1F2B51;
+    border: none;
+}
+
+.title_form {
+    text-align: center;
+    color: #A39F9F;
+}
+
+.btn-options-registers {
+    text-align: center;
+    margin-right: 50px;
+}
+
+.form_disabled_calendar {
+    padding-bottom: 6em;
+    text-align: center;
+    padding-top: 30%;
+}
+
+.form_enable_calendar {
+    padding-bottom: 6em;
+    color: #A39F9F;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#cancelButton {
+    background-color: #FFFF;
+    border: none;
+    color: #FF8A33;
+}
+
+#registerButton {
+    background-color: #FF8A33;
+    border: none;
+    color: #FFFF;
+}
+
+.fab-danger {
+    border-radius: 100%;
+    position: fixed;
+    font-size: 22px;
+    left: 25px;
+    width: 50px;
+    height: 50px;
+    margin-top: 0.5%;
+}
+
+.calendarRow {
+    margin-top: 5%;
+}
+
+.home-textr {
+    position: absolute;
+    display: grid;
+    top: 5%;
+    left: 10%;
+    transition: var(--tran-04);
+    text-align: center;
+    color: var(--text-color);
+}
+
+.containerDelete button {
+    left: 10%;
+}
+
+.containerDelete {
+    margin: 30px;
+}

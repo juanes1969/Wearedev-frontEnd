@@ -1,0 +1,59 @@
+.home-textC{
+    position: absolute;    
+    top: 10%;
+    left: 0%;
+    transition: var(--tran-04);
+    text-align: center;
+    color: var(--text-color);
+
+}
+
+.home-text-register-projects {
+    position: absolute;
+    display: grid;
+    top: 10%;
+    left: 30%;
+    transition: var(--tran-04);
+    text-align: center;
+    color: var(--text-color);
+}
+
+.rectangle-form-projects {
+    border-radius: 2%;
+    width: 550px;
+    height: 400px;
+    background-color: #FFF;
+    
+}
+
+.col_items {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+}
+
+.form-register-projects {
+    color: #A39F9F;
+    padding: 20px;
+}
+
+.btn-register {
+    color: #FFF;
+    background-color: #0F50B7;
+    border: none;
+}
+
+.btn-reset {
+    color: #FFF;
+    background-color: #D31343;
+    border: none;
+}
+
+.search_container{
+    display: flex;
+    justify-content: center;
+    margin: 15px;
+    margin-top: 5%;
+}

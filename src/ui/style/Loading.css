@@ -1,0 +1,17 @@
+.loadingContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 4;
+}
+
+.itemContainer {
+    width: 450;
+}
+
+.spinner-border {
+    width: 3rem;
+    height: 3rem;
+}

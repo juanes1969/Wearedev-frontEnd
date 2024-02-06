@@ -1,0 +1,98 @@
+:root {
+
+    /*---------- Colors ----------*/
+
+    --body-color: #E4E9F7;
+    --sidebar-color: #FFF;
+    --primary-color: #1F2B51;
+    --primary-color-lingth: #F6F5FF;
+    --toggle-color: #DDD;
+    --text-color: #707070;
+
+    /*---------- Trasitions ----------*/
+
+    --tran-02: all 0.2s ease;
+    --tran-03: all 0.3s ease;
+    --tran-04: all 0.4s ease;
+    --tran-05: all 0.5s ease;
+}
+
+/* .home-text {
+    position: absolute;
+    top: 10%;
+    left: 15%;
+    transition: var(--tran-04);
+    text-align: center;
+    color: var(--text-color);
+
+} */
+
+/* .cont1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+*/
+.home-text {
+    display: flex;
+    position: absolute;
+    top: 20%;
+    left: 5%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    background-color: #f8f9fa;
+    box-sizing: border-box;
+}
+
+.text-container {
+    flex: 1;
+    padding-right: 20px;
+}
+
+/* Estilos del texto */
+.text-container h1 {
+    font-size: 36px;
+    color: #007bff;
+}
+
+.text-container p {
+    font-size: 18px;
+    color: #6c757d;
+}
+
+/* Estilos de la imagen */
+.image-container {
+    flex: 1;
+}
+
+.carousel-inner img {
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%; /* Asegura que la imagen ocupe el 100% del contenedor */
+    height: auto; /* Se ajusta automáticamente la altura */
+    object-fit: cover;
+}
+
+/* Estilos de los controles del carrusel */
+/* .carousel-control-prev-icon,
+.carousel-control-next-icon {
+    top: 50%;
+    background-color: #1F2B51;
+    border-radius: 50%;
+} */
+
+.carousel-control-prev,
+.carousel-control-next {
+    top: 45%;
+    width: 30px;
+    height: 30px;
+    margin: 3%;
+}
+
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+    border-radius: 50%;
+    background-color: #1F2B51;
+}

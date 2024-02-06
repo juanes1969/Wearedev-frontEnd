@@ -1,0 +1,64 @@
+.excel-table {
+  font-family: Arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%vh;
+  margin: 20px;
+}
+
+.excel-table th,
+.excel-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+.excel-table th {
+  background-color: #f2f2f2;
+}
+
+.excel-table input {
+  width: 50px;
+  text-align: center;
+}
+
+.excel-table select {
+  width: 100px;
+}
+
+.excel-table button {
+  margin: 10px;
+}
+
+.excel-table tfoot td {
+  font-weight: bold;
+}
+
+.home-text-calendarp {
+  position: absolute;
+  top: 15%;
+  left: 5%;
+  transition: var(--tran-04);
+  text-align: center;
+  color: var(--text-color);
+}
+
+
+.extra-hours {
+  background-color: red;
+  color: white;
+}
+
+.extra-hours-row {
+  background-color: red;
+  /* Puedes ajustar el color según tus preferencias */
+  color: white;
+  /* Puedes ajustar el color del texto según tus preferencias */
+}
+
+/* Fondo rojo para horas extras */
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
